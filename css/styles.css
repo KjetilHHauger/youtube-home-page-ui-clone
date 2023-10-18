@@ -10,17 +10,35 @@ body {
 }
 
 header {
-    background-color: brown;
+    background-color: black;
+    color: white;
     height: 56px;
+    display: flex;
+    justify-content: space-between;
+    flex-shrink: 0;
+    align-items: center;
+    padding: 0 0.5rem;
 }
 
-main, .sideMenu, .mainContent {
+.menu-btn-and-logo {
+    display: flex;
+    gap: 1.5rem;
+    color: white;
+}
+
+.menu-btn-and-logo div {
+    height: 20px;
+    color: white;
+}
+.sideMenu, .mainContent {
     overflow-y: scroll;
 }
+
 main {
     background-color: aqua;
     flex-grow: 1;
     display: flex;
+    overflow-y: hidden;
 }
 
 .sideMenu {
