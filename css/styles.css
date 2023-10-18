@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
 }
 
 body {
@@ -28,7 +29,31 @@ header {
 
 .menu-btn-and-logo div {
     height: 20px;
+}
+
+.settings-btn {
+    background: none;
     color: white;
+    border: none;
+}
+
+.signin-btn {
+    background: transparent;
+    color: #3ea6ff;
+    border-radius: 20px;
+    padding: .5rem;
+    font-weight: bold;
+    border: 2px solid #263850;
+    display: inline-flex;
+    gap: .5rem;
+    align-items: center;
+    font-size: 14px;
+}
+
+.signin-btn:hover {
+    background-color: #263850;
+    border-color: transparent;
+    cursor: pointer;
 }
 .sideMenu, .mainContent {
     overflow-y: scroll;
